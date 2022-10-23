@@ -1,0 +1,32 @@
+.picker {
+    border-radius: 15px;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    border: 0;
+  }
+  .picker:hover {
+    box-shadow: 3px 3px 8px #000;
+    transition: all 0.3s ease-in-out;
+  }
+  .picker:active{
+      transform: scale(.97);
+  }
+  .bg-primary{
+      background-color: #5d0066 !important;
+  }
+  .bg-danger{
+      background-color: #d30037 !important;
+  }
+  .bg-info{
+      background-color: #1e938d !important;
+  }
+  .bg-warning{
+      background-color: #ede60d !important;
+  }
+  .bg-success{
+      background-color: #0b7c13 !important;
+  }
+  .bg-dark{
+      background-color: #000000 !important;
+  }
