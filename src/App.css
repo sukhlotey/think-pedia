@@ -61,21 +61,22 @@ h1{
     width: 100%;
     padding: 16px;
     margin-bottom: 16px;
-    background-color: #fff;
+    background-color: transparent;
     border-radius: 15px;
+    border: 1px solid #fff;
 }
 .result:hover{
-    /* box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.2); */
     transform: scale(.98);
     transition: .4s;
 }
 .result h3{
-    color: #000;
+    color: #fff;
     font-size: 28px;
     margin-bottom:15px ;
+    border-bottom: 1px solid #fff;
 }
 .result p{
-    color: #000;
+    color: #fff;
     font-size: 18px;
     margin-bottom:16px;
 }
@@ -85,15 +86,15 @@ h1{
 .result a{
     display: inline-block;
     padding: 12px 15px;
-    background-color: #162b91;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
     font-weight: 700;
     text-decoration: none;
     border-radius: 12px;
     transition: 0.4s;
 }
 .result a:hover{
-    background-color: #224bc7;
+    background-color: #f2f8fb;
 }
 .result a:active{
     transform: scale(.97);
